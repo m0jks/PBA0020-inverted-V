@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PBA0006-T94-6-trap)(type Legacy)(uri ${KIPRJMOD}/PBA0006-T94-6-trap.lib)(options "")(descr ""))
+)

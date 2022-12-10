@@ -1,0 +1,112 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 614B13F1
+P 4400 3650
+F 0 "H2" V 4550 3700 50  0000 C CNN
+F 1 "MountingHole_Pad" H 4400 3850 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4400 3650 50  0001 C CNN
+F 3 "~" H 4400 3650 50  0001 C CNN
+	1    4400 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 614B1ACF
+P 5950 3650
+F 0 "H4" V 5800 3650 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5600 3850 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5950 3650 50  0001 C CNN
+F 3 "~" H 5950 3650 50  0001 C CNN
+	1    5950 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 62A4A75B
+P 4700 3650
+F 0 "H1" V 4850 3700 50  0000 C CNN
+F 1 "MountingHole_Pad" H 4700 3850 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4700 3650 50  0001 C CNN
+F 3 "~" H 4700 3650 50  0001 C CNN
+	1    4700 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 62A4BC68
+P 5650 3650
+F 0 "H3" V 5500 3650 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5300 3850 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5650 3650 50  0001 C CNN
+F 3 "~" H 5650 3650 50  0001 C CNN
+	1    5650 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 3650 4600 3650
+Wire Wire Line
+	5750 3650 5850 3650
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 62A7A0CC
+P 5150 2050
+F 0 "SW1" H 5150 1825 50  0000 C CNN
+F 1 "SW_SPST" H 5150 1916 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TOGGLE_13mm_7mm" H 5150 2050 50  0001 C CNN
+F 3 "~" H 5150 2050 50  0001 C CNN
+	1    5150 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 62A7B538
+P 5600 2050
+F 0 "H6" V 5450 2050 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5250 2250 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5600 2050 50  0001 C CNN
+F 3 "~" H 5600 2050 50  0001 C CNN
+	1    5600 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 62A7C1F8
+P 4700 2050
+F 0 "H5" V 4550 2050 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4350 2250 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4700 2050 50  0001 C CNN
+F 3 "~" H 4700 2050 50  0001 C CNN
+	1    4700 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 2050 4950 2050
+Wire Wire Line
+	5350 2050 5500 2050
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 62A8CB55
+P 6350 2050
+F 0 "H7" V 6200 2050 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6000 2250 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 6350 2050 50  0001 C CNN
+F 3 "~" H 6350 2050 50  0001 C CNN
+	1    6350 2050
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

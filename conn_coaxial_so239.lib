@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Conn_Coaxial_SO239
+#
+DEF Conn_Coaxial_SO239 U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Conn_Coaxial_SO239" 0 0 50 H V C CNN
+F2 "Connector_Coaxial:Connector_Coax_SO239" 0 0 50 H V C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -2 -200 71 1636 0 1 1 10 N -70 -180 70 -200
+A -1 -200 71 0 -1638 1 1 10 N 70 -200 -70 -220
+C 0 -200 20 1 1 8 N
+P 2 1 1 0 0 -300 0 -270 N
+X Ext 1 0 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
